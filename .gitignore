@@ -5,4 +5,13 @@
 myenv/
 .venv/
 
+# ignore temp.py
+temp.py
+
+# ignore all python cache files
+__pycache__/
+*.pyc
+
+
+
 
