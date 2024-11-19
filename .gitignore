@@ -1,0 +1,8 @@
+# ignore .log files
+*.log
+
+# ignore python env files
+myenv/
+.venv/
+
+
