@@ -21,10 +21,12 @@ logger.addHandler(c_handler)
 logger.addHandler(f_handler)
 
 # Import your modules after configuring logging
-from sap_ui_landscape_modifier import xml_parser
-from gui_app import App
+from src.sap_ui_landscape_modifier_backend.xml_parser import XMLParser
+from src.sap_ui_landscape_modifier_gui.App import App
 
-if __name__ == '__main__':
-    # Start your application
+def main():
     app = App()
     app.mainloop()
+
+if __name__ == '__main__':
+    main()
