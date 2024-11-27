@@ -1,0 +1,17 @@
+# ignore .log files
+*.log
+
+# ignore python env files
+myenv/
+.venv/
+
+# ignore temp.py
+temp.py
+
+# ignore all python cache files
+__pycache__/
+*.pyc
+
+
+
+
