@@ -1,0 +1,64 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Packaging artifacts (excluding dist/)
+build/
+*.egg-info/
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual environments
+venv/
+.env/
+.venv/
+env/
+
+# PyInstaller artifacts
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+coverage.xml
+*.cover
+*.py,cover
+.cache
+pytest_cache/
+nosetests.xml
+test-results/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# MacOS
+.DS_Store
+
+# Thumbnails, screenshots, and temp images
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+*.ico
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+
+# Temporary or intermediate XML files
+temp_*.xml
+
+# Misc
+requirments.txt  # Ignore the typo version only if you rename to requirements.txt
